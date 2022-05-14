@@ -134,7 +134,7 @@ class JmsProxy:
     def __init_domains(self):
         self.__domains = {}
         for domain in self.__jms.get_domains():
-            self.__domains['name'] = domain['id']
+            self.__domains[domain['name']] = domain['id']
 
     def __init_admin_users(self):
         self.__admin_users = {}
