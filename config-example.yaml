@@ -1,0 +1,16 @@
+jumpserver_host: https://jumpserver.com
+jumpserver_ak: xxxxxxx
+jumpserver_sk: xxxxxxxxxxxxxx
+
+regions:
+  - name: ali-bj
+    cloud: ali
+    ak: L1234445556
+    sk: 12121231234123123123123
+    region_id: cn-beijing
+
+networks:
+  - name: prod
+    region: ali-bj
+    vpc_id: xxx-xxxxx
+    admin_user: ali-bj-root
